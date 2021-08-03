@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FDL version="2.1">
+  <Form id="Sample" width="1280" height="720" titletext="New Form">
+    <Layouts>
+      <Layout height="720" mobileorientation="landscape" width="1280">
+        <Div id="Div00" taborder="0" text="Div00" left="15" top="16" width="387" height="259">
+          <Layouts>
+            <Layout>
+              <Div id="Div00" taborder="0" text="Div00" left="135" top="91" width="242" height="161">
+                <Layouts>
+                  <Layout>
+                    <Button id="Button00" taborder="0" text="Button00" left="8" top="11" width="120" height="50"/>
+                    <Button id="Button01" taborder="1" text="Button01" left="38" top="86" width="120" height="50"/>
+                  </Layout>
+                </Layouts>
+              </Div>
+              <Button id="Button00" taborder="1" text="Button00" left="17" top="11" width="81" height="40"/>
+              <Button id="Button01" taborder="2" text="Button01" left="5" top="68" width="120" height="50"/>
+            </Layout>
+          </Layouts>
+        </Div>
+        <Div id="Div01" taborder="1" text="Div01" left="412" top="19" width="488" height="256" url="Comp::Comp_Base.xfdl"/>
+        <Tab id="Tab01" taborder="2" tabindex="0" left="34" top="310" width="666" height="350" preload="true" onchanged="Tab01_onchanged">
+          <Tabpages>
+            <Tabpage id="Tabpage1" text="Tabpage1" url="Base::Hello_Sample.xfdl"/>
+            <Tabpage id="Tabpage2" text="Tabpage2" url="CompCom::CompCom_Event.xfdl"/>
+            <Tabpage id="Tabpage3" text="Tabpage3">
+              <Layouts>
+                <Layout/>
+              </Layouts>
+            </Tabpage>
+          </Tabpages>
+        </Tab>
+      </Layout>
+    </Layouts>
+    <Script type="xscript5.1"><![CDATA[
+this.Tab00_onchanged = function(obj:nexacro.Tab,e:nexacro.TabIndexChangeEventInfo)
+{
+	
+};
+
+this.Tab01_onchanged = function(obj:nexacro.Tab,e:nexacro.TabIndexChangeEventInfo)
+{
+	
+};
+]]></Script>
+  </Form>
+</FDL>

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FDL version="2.1">
+  <Form id="Form_Work" width="1280" height="720" titletext="Form_Work">
+    <Layouts>
+      <Layout width="1280" height="720" screenid="Desktop_screen">
+        <Button id="Button00" taborder="0" text="Button00" left="16" top="12" width="120" height="50"/>
+        <Button id="Button01" taborder="1" text="Button01" left="136" top="12" width="120" height="50"/>
+        <Grid id="Grid00" taborder="2" left="17" top="91" width="243" height="109">
+          <Formats>
+            <Format id="default">
+              <Columns>
+                <Column size="48"/>
+                <Column size="48"/>
+              </Columns>
+              <Rows>
+                <Row size="24" band="head"/>
+                <Row size="24"/>
+                <Row size="24"/>
+                <Row size="24"/>
+                <Row size="24"/>
+                <Row size="24" band="summ"/>
+              </Rows>
+              <Band id="head">
+                <Cell/>
+                <Cell col="1"/>
+              </Band>
+              <Band id="body">
+                <Cell/>
+                <Cell col="1"/>
+                <Cell row="1"/>
+                <Cell row="1" col="1"/>
+                <Cell row="2"/>
+                <Cell row="2" col="1"/>
+                <Cell row="3"/>
+                <Cell row="3" col="1"/>
+              </Band>
+              <Band id="summary">
+                <Cell/>
+                <Cell col="1"/>
+              </Band>
+            </Format>
+          </Formats>
+        </Grid>
+        <Edit id="Edit00" taborder="3" left="20" top="224" width="80" height="16"/>
+        <Edit id="Edit01" taborder="4" left="100" top="224" width="92" height="16"/>
+        <TextArea id="TextArea00" taborder="5" left="20" top="260" width="80" height="20"/>
+        <Static id="Static00" taborder="6" text="Static00" left="24" top="304" width="51" height="14" onclick="Static00_onclick"/>
+      </Layout>
+      <Layout name="Phone_screen" width="480" height="768" screenid="Phone_screen"/>
+    </Layouts>
+    <Script type="xscript5.1"><![CDATA[
+this.Static00_onclick = function(obj:nexacro.Static,e:nexacro.ClickEventInfo)
+{
+	
+};
+]]></Script>
+  </Form>
+</FDL>
